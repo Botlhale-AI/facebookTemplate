@@ -19,7 +19,7 @@ Once you have created a page, go back to the Token Generation settings and sel
 Finally, you need to register your webhook on the Facebook developers page.
 
 - Go to the Messenger tab in Products again and scroll down to Webhooks, click on Setup Webhooks
-- Under the Callback URL enter in your ngrok URL, for example, `https://51b6b3fa.ngrok.io/webhook`. It is important that your flask app is running at this point, because the `verify_token()` will be called on the next step.
+- Under the Callback URL enter the url were your are running you app. in local host you can use [ngrok](https://ngrok.com/docs) to generate a public url for example, `https://51b6b3fa.ngrok.io/webhook`. It is important that your flask app is running at this point, because the `verify_token()` will be called on the next step.
 - In the Verify Token field, you put the value you specified in your `config.json` file.
 - In Subscription Fields make sure `messages` and `messaging_postbacks` are ticked Click Verify and Save to perform the authentication.
 
