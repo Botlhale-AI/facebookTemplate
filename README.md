@@ -1,5 +1,6 @@
 # facebookTemplate
 
+![facebookTemplate](fbdeploy.jpeg)
 
 ## Create a Facebook App and Page
 The next step is to create an app and a page on Facebook. There is good [documentation](https://developers.facebook.com/docs/messenger-platform) available from Facebook but you'll walk through the main steps here.
